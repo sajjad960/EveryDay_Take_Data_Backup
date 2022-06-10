@@ -1,15 +1,15 @@
-#Introduction
+# Introduction
 Hi! I am a simple repo, Who have some bash script for taking backup of your MongoDB database.
 Simply, I am exporting your all database and send a copy of it to another server.😀
 
 If you need any help Here's my creator knock him:- [Sajjad_Hossain](https://twitter.com/SajjadH40513194)
 
-#Architecture
+# Architecture
 Please take a look into the Architecture folder. You can findout it with two format
 1. PDF
 2. PNG
 
-#Pre-requisites
+# Pre-requisites
 * MongoDB
     * mongodump
     * mongorestore
@@ -17,7 +17,7 @@ Please take a look into the Architecture folder. You can findout it with two for
 * SCP
 * Cron
 
-#Step-1: Export all databases.
+# Step-1: Export all databases.
 Hope, Already you some database and collections into your mechine MongoDB.
 Please check my exportsAllDB.sh script into the ExportsDB_Script folder of this repo.
 

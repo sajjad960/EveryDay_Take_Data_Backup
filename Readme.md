@@ -57,6 +57,7 @@ echo "Finished Uploading another cloud server"
 ```
 💥If all execution completed successfully it's mean your data also upload to the server(which server address you added into the scpScriptForTransfer.sh)
 
-----UPDATING----
+----Continue Formating and Updating----
+Thank you.
 
 

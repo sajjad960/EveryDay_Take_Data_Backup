@@ -39,7 +39,7 @@ Hope, Already you have some database and collections into your MongoDB Database 
 ```
 declare -a databases=("lalaladb" "ulululu")
 ```
-you need to make some change in this ^ line, just add your all database name instead of "lalaladb" "ulululu". Don't laugh at my DB name please. :) :)
+you need to make some change in this ^ line, just add your all database name instead of "lalaladb" "ulululu". Don't laugh at my DB name please. 😅😅
 ```
 DIR=`date -d '-1 day' +%d-%m-%y`
 DEST=~/db_backups/$DIR

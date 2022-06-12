@@ -36,7 +36,9 @@ You need to make some change here,If You don't know about SCP and How it work, P
 ## Step-2: Export all MongoDB databases and Upload To Another Server.
 Hope, Already you have some database and collections into your MongoDB Database system. Please check my exportsAllDB.sh script into the ExportsDB_Script folder of this repo.
 
-```declare -a databases=("lalaladb" "ulululu")```
+```
+declare -a databases=("lalaladb" "ulululu")
+```
 you need to make some change in this ^ line, just add your all database name instead of "lalaladb" "ulululu". Don't laugh at my DB name please. :) :)
 ```
 DIR=`date -d '-1 day' +%d-%m-%y`
@@ -44,7 +46,7 @@ DEST=~/db_backups/$DIR
 ```
 Since I am working with UTC Time and I want to execute this script at 12:00 AM, That's why `DEST` will make a directory into `/db_backups` and the name of the directory gonna be yesterday date. 
 Example- (today date = 12-06-22, yesterday date = 11-06-22, DEST=/db_backups/11-06-22).
-*** Now run exportsAllDB.sh and when it's finish execution then Check /db_backups directory you will find your exported Databases ***
+***Now run exportsAllDB.sh and when it's finish execution then Check /db_backups directory you will find your exported Databases***
 So, end of the exportsAllDB.sh execution another script gonna start execution because here's it's added into the exportsAllDB.sh
 ```
 # let's upload the backup on another server

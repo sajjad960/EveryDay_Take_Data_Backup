@@ -13,7 +13,7 @@ Please take a look into the Architecture folder. You can find out it with two fo
 * MongoDB
     * mongodump
     * mongorestore
-* Bash script
+* Basic Bash script
 * SCP
 * Cron
 
@@ -28,12 +28,12 @@ you need to make some change in this ^ line, just add your all database name ins
 
 
 ## Step-2: Export all MongoDB databases. -->
-## Step-1: Let's prepare Sever to Server Data sending script.
+## Step-1: Let's Prepare Server To Server Data Sending Script.
 Please take a look into `Copy_BackupDB_To_BackupServer_Script` folder in this repo and
 check `scpScriptForTransfer.sh`.
-You need to make some change here, You don't know about Scp and How it work, Please learn it first.
+You need to make some change here,If You don't know about SCP and How it work, Please learn it first.
 > Hint: Here scp works with some security layer, example:- ServerIp, specific port, ssl, public key and networkIp.
-## Step-2: Export all MongoDB databases and Upload Another Server.
+## Step-2: Export all MongoDB databases and Upload To Another Server.
 Hope, Already you have some database and collections into your MongoDB Database system. Please check my exportsAllDB.sh script into the ExportsDB_Script folder of this repo.
 
 ```declare -a databases=("lalaladb" "ulululu")```
